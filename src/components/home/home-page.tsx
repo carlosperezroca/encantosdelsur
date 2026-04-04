@@ -240,13 +240,13 @@ export default function HomePage() {
             animate="visible"
             className="flex items-center justify-between border-b border-white/10 pb-5"
           >
-            <div>
-              <div className="text-lg font-semibold tracking-[0.18em] text-white">
-                ENCANTOS DEL SUR
-              </div>
-              <p className="mt-1 text-[11px] uppercase tracking-[0.35em] text-white/50">
-                Travel editorial
-              </p>
+            <div className="flex items-center gap-4">
+              <img
+                key="encantosdelsur-dark.png"
+                src="/encantosdelsur-dark.png"
+                alt="Logo encantos del sur"
+                className="h-16 w-auto"
+              />
             </div>
             <nav className="hidden gap-8 text-sm text-white/80 md:flex">
               {[
